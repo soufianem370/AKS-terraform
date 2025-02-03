@@ -2,8 +2,8 @@
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "tfstate-rg"
-    storage_account_name = "tfstatestorage1234"
+    resource_group_name  = "941-61aeca92-create-an-aks-cluster-and-deploy-appl"
+    storage_account_name = "tfstatestorage123456"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
