@@ -2,7 +2,7 @@
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "941-61aeca92-create-an-aks-cluster-and-deploy-appl"
+    resource_group_name  = "664-cc373b4e-create-an-aks-cluster-in-azure-with-t"
     storage_account_name = "tfstatestorage123456"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
@@ -14,7 +14,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "941-61aeca92-create-an-aks-cluster-and-deploy-appl"
+  name     = "664-cc373b4e-create-an-aks-cluster-in-azure-with-t"
   location = "East US"
 }
 
