@@ -14,7 +14,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "aks-resource-group"
+  name     = "941-61aeca92-create-an-aks-cluster-and-deploy-appl"
   location = "East US"
 }
 
