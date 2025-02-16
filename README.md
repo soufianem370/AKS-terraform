@@ -33,3 +33,15 @@ sudo curl --insecure -fL https://18.227.10.54/system-agent-install.sh | sudo sh 
 ``
 sudo curl --insecure -fL https://18.227.10.54/system-agent-install.sh | sudo sh -s - --server https://18.227.10.54 --label 'cattle.io/os=linux' --token g2xbd9f6gfdpsbzknf59pwxc2c5hkfnz9pmwlz6tztpvgfhzmjqgjj --ca-checksum 50293921b8a80940f3c3b544b2de551964650f650d551be4dea95cd7a67c9d35 --worker
 ``
+## installer storage
+Longhorn via la charte disponible sur rancher
+
+## installer un ingress controller
+
+``
+https://kubernetes.github.io/ingress-nginx/deploy/ 
+``
+
+## install application avec bd
+
+https://github.com/soufianem370/kodekloud
